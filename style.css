@@ -92,3 +92,37 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+.information {
+    height: 25%;
+}
+
+.infohead {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.squarecont {
+    display: flex;
+    gap: 4em;
+    justify-content: center;
+}
+
+info {
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    width: 160px;
+    color: gray;
+    font-size: 18px;
+    align-items: center;
+}
+
+.square {
+    border: solid #3882F6;
+    box-sizing: content-box;
+    width: 160px;
+    height: 160px;
+    border-radius: 7px;
+}
