@@ -94,7 +94,7 @@ button {
 }
 
 .information {
-    height: 25%;
+    padding-bottom: 100px;
 }
 
 .infohead {
@@ -125,4 +125,33 @@ info {
     width: 160px;
     height: 160px;
     border-radius: 7px;
+}
+
+.quotecont {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    box-sizing: content-box;
+    width: 815px;
+}
+
+.mainquote {
+    text-align: start;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.credit {
+    font-weight: bold;
+    text-align: end;
+    font-size: 23px;
+    padding-right: 30px;
 }
