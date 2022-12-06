@@ -191,3 +191,12 @@ info {
 .actionbut {
     border: solid 2px #F9FAF8;
 }
+
+.footer {
+    background-color: #1F2937;
+    padding: 24px;
+}
+
+.footcont {
+    color: #E5E7EB;
+}
