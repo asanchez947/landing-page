@@ -155,3 +155,39 @@ info {
     font-size: 23px;
     padding-right: 30px;
 }
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.actioncont {
+    background-color: #3882F6;
+    display: flex;
+    width: 1000px;
+    height: 100px;
+    border-radius: 7px;
+    justify-content: center;
+    gap: 250px;
+    align-items: center;
+}
+
+.actionbox {
+    text-align: start;
+}
+
+.actionhead {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.actiontext {
+    color: #F9FAF8;
+}
+
+.actionbut {
+    border: solid 2px #F9FAF8;
+}
